@@ -108,6 +108,12 @@ pip install -r requirements.txt
 pip install --no-build-isolation --no-cache-dir flash-attn==2.7.1.post4
 pip install -i https://devpi.qualcomm.com/piqaro/rel/+simple piqaro==1.0.0
 pip install -e ".[qcom]"
+echo "[√] Finished the basic GR00T setup."
+
+# Setup the close-loop eval envs
+cd /prj/qct/datasets_internal_3dMD_body1/users/zzy/projects/robots-lmao
+bash h100_setup.sh
+
 echo "[√] Conda environment initialized successfully!"
 
 echo "[√] Linux initialized successfully!"
