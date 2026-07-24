@@ -49,6 +49,7 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 export WORKSPACE=/prj/qct/datasets_internal_3dMD_body1/users
 export WORKDIR="$WORKSPACE/zzy"
+export UV_PYTHON_INSTALL_DIR=/prj/qct/datasets_internal_3dMD_body1/users/zzy/uv_python_cache
 
 setopt histignorealldups
 setopt share_history
